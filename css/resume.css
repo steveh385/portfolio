@@ -181,7 +181,6 @@ section.resume-section .resume-item .resume-date {
 
 .text-primary {
   color: rgb(56, 189, 78) !important;
-  text-shadow: 2px 2px black;
 }
 
 a {
@@ -191,6 +190,9 @@ a {
 a:hover, a:focus, a:active {
   color:black;
 }
-.mb-0 {
+#lastname {
   text-shadow: 2px 2px rgb(56, 189, 78);
+}
+#firstname {
+  text-shadow: 2px 2px black;
 }
