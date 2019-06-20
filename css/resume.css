@@ -180,11 +180,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: rgb(56, 189, 78) !important;
 }
 
 a {
-  color: #BD5D38;
+  color: rgb(56, 189, 78);
 }
 
 a:hover, a:focus, a:active {
