@@ -58,7 +58,7 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: rgb(56, 189, 78);
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
@@ -72,15 +72,16 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: black;
 }
 
 .dev-icons {
   font-size: 3rem;
+  color: rgb(56, 189, 78);
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: black;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
