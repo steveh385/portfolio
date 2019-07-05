@@ -16,7 +16,7 @@ body {
     padding-left: 17rem;
   }
 }
-
+#horizontal_line { }
 h1,
 h2,
 h3,
@@ -197,3 +197,4 @@ a:hover, a:focus, a:active {
 #firstname {
   text-shadow: 2px 2px black;
 }
+
