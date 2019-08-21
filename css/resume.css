@@ -16,7 +16,7 @@ body {
     padding-left: 17rem;
   }
 }
-#horizontal_line { }
+hr {border: 1px solid black; }
 h1,
 h2,
 h3,
@@ -30,7 +30,7 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 8rem;
   line-height: 5.5rem;
 }
 
@@ -191,10 +191,24 @@ a {
 a:hover, a:focus, a:active {
   color:black;
 }
-#lastname {
-  text-shadow: 2px 2px rgb(56, 189, 78);
-}
-#firstname {
-  text-shadow: 2px 2px black;
+
+#name {
+  animation: flow 30s ease-in-out infinite;
+  background: linear-gradient(-60deg, #2dd436, #839285, #053b0c, #1bdb1b);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+@keyframes flow {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
