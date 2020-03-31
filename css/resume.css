@@ -169,6 +169,7 @@ section.resume-section .resume-item .resume-date {
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
+  
 }
 
 @media (min-width: 992px) {
@@ -177,6 +178,7 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem !important;
   }
 }
+
 
 .bg-primary {
   background-color: rgb(5, 7, 6) !important;
