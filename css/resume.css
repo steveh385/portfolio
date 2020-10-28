@@ -132,13 +132,13 @@ a:hover {
 
 @media screen and (min-width: 499px) {
   #name {
-    font-size: 7rem;
+    font-size: 7.5rem;
   }
 }
 
 @media (min-width: 768px) {
   #name {
-    font-size: 7rem;
+    font-size: 8rem;
   }
   section.resume-section {
     min-height: 100vh;
