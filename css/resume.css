@@ -130,15 +130,15 @@ a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 499px) {
   #name {
-    font-size: 6rem;
+    font-size: 7rem;
   }
 }
 
 @media (min-width: 768px) {
   #name {
-    font-size: 6rem;
+    font-size: 7rem;
   }
   section.resume-section {
     min-height: 100vh;
