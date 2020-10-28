@@ -10,13 +10,11 @@ body {
   color: #868e96;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 0;
-    padding-left: 17rem;
-  }
-}
-hr {border: 1px solid black; }
+
+hr {
+  border: 1px solid black;
+   }
+
 h1,
 h2,
 h3,
@@ -27,11 +25,6 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
-}
-
-h1 {
-  font-size: 8rem;
-  line-height: 5.5rem;
 }
 
 h2 {
@@ -95,6 +88,82 @@ p.lead {
   outline-color: #d48a6e;
 }
 
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+
+
+
+.bg-primary {
+  background-color: rgb(5, 7, 6) !important;
+}
+
+.text-primary {
+  color: rgb(7, 8, 7) !important;
+}
+
+a {
+  color: black;
+  
+}
+
+a:hover {
+  color: gray;
+  transform: scale(1.2);
+}
+
+#name {
+  animation: flow 20s ease-in-out infinite;
+  background: linear-gradient(-60deg, #0d4edb, #4b499c, #76839e, #d1d2da);
+  background-size: 300%;
+  background-clip: text;
+  line-height: 5.5rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 500px) {
+  #name {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #name {
+    font-size: 6rem;
+  }
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+  
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #name {
+    font-size: 8rem;
+  }
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -152,60 +221,6 @@ p.lead {
   }
 }
 
-section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
-}
-
-section.resume-section .resume-item .resume-date {
-  min-width: none;
-}
-
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
-  }
-  
-}
-
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-  }
-}
-
-
-.bg-primary {
-  background-color: rgb(5, 7, 6) !important;
-}
-
-.text-primary {
-  color: rgb(7, 8, 7) !important;
-}
-
-a {
-  color: black;
-  
-}
-
-a:hover {
-  color: gray;
-  transform: scale(1.2);
-}
-
-#name {
-  animation: flow 20s ease-in-out infinite;
-  background: linear-gradient(-60deg, #0d4edb, #4b499c, #76839e, #d1d2da);
-  background-size: 300%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 @keyframes flow {
   0% {
