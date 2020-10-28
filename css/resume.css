@@ -130,9 +130,9 @@ a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (min-width: 499px) {
+@media screen and (min-width: 350px) {
   #name {
-    font-size: 7.5rem;
+    font-size: 6rem;
   }
 }
 
